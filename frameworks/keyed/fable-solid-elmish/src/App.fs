@@ -80,11 +80,14 @@ let nouns = [
 
 let random = System.Random()
 
+let mutable idCounter = 1
+
 let buildData count =
   let data = Array.zeroCreate count
 
   for i in 0 .. count - 1 do
-    let id = string i
+    let id = string idCounter
+    idCounter <- (idCounter + 1)
 
     let label =
       $"{List.item (random.Next(adjectives.Length - 1)) adjectives} {List.item (random.Next(colors.Length - 1)) colors} {List.item (random.Next(nouns.Length - 1)) nouns}"

@@ -14,7 +14,7 @@
     },
     "scripts": {
       "install:fable": "dotnet tool restore",
-      "dev"          : "dotnet fable watch src -o js -e .jsx --sourceMaps",
+      "dev"          : "dotnet fable watch src -o js -e .jsx --sourceMaps --runWatch vite build",
       "vite": "vite",
       "build"        : "dotnet fable       src -o js -e .jsx && vite build",
       "preview"      : "vite preview",
