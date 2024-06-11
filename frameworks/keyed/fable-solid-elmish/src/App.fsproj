@@ -7,7 +7,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Elmish.Solid" Version="1.0.0-beta-002" />
-    <PackageReference Include="Fable.Core" Version="4.0.0" />
+    <PackageReference Include="Fable.Core" Version="4.3.0" />
     <PackageReference Include="Fable.Fetch" Version="2.6.0" />
     <PackageReference Include="Feliz.JSX.Solid" Version="1.0.0-beta-002" />
   </ItemGroup>

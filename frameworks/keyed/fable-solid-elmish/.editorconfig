@@ -1,0 +1,9 @@
+
+[*]
+max_line_length = 100
+indent_size = 2
+
+[*.{fs,fsx,fsi}]
+fsharp_experimental_elmish = true
+fsharp_multiline_bracket_style = aligned
+fsharp_multiline_bracket_style = stroustrup

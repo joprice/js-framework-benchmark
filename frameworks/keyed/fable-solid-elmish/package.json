@@ -14,7 +14,8 @@
     },
     "scripts": {
       "install:fable": "dotnet tool restore",
-      "dev"          : "dotnet fable watch src -o js -e .jsx --sourceMaps --runFast vite",
+      "dev"          : "dotnet fable watch src -o js -e .jsx --sourceMaps",
+      "vite": "vite",
       "build"        : "dotnet fable       src -o js -e .jsx && vite build",
       "preview"      : "vite preview",
       "clean"        : "rm -rf src/bin src/obj js dist node_modules pnpm-lock.yaml",

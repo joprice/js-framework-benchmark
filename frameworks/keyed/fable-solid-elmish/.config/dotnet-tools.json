@@ -1,13 +1,24 @@
 {
-    "version": 1,
-    "isRoot": true,
-    "tools": {
-      "fable": {
-        "version": "4.0.0",
-        "commands": [
-          "fable"
-        ]
-      }
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "fable": {
+      "version": "4.18.0",
+      "commands": [
+        "fable"
+      ]
+    },
+    "fsautocomplete": {
+      "version": "0.73.1",
+      "commands": [
+        "fsautocomplete"
+      ]
+    },
+    "fantomas": {
+      "version": "6.3.0",
+      "commands": [
+        "fantomas"
+      ]
     }
   }
-  
+}
